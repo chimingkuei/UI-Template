@@ -162,9 +162,6 @@
             <TabItem Header="錯誤" Style="{StaticResource BaseTabcontrol}">
                 <RichTextBox x:Name="richTextBoxError" Background="#FF43A0BF"/>
             </TabItem>
-            <TabItem Header="除錯" Style="{StaticResource BaseTabcontrol}">
-                <RichTextBox x:Name="richTextBoxDebug" Background="#FF4396BF"/>
-            </TabItem>
         </TabControl>
     </Grid>
 </Window>
