@@ -223,7 +223,11 @@
     <Resource Include="Icon\icons8-power-off-button-50.png" />
     <Resource Include="Icon\icons8-setting-48.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Icon\Error.png" />
+    <Resource Include="Icon\Information.png" />
+    <Resource Include="Icon\Warning.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
