@@ -109,16 +109,29 @@
         </TabControl>
         <StatusBar Name="statusBar" Margin="348,1036,0,1" FontSize="20" Background="#E5EEF9" BorderBrush="#646464" BorderThickness="1">
             <StatusBarItem>
-                <TextBlock Text="Status bar text.........." Width="720"/>
+                <TextBlock Text="Status bar text.........." Width="910"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
-                <ToggleButton x:Name="Log_Switch" Content="Log" Width="185" Height="42"/>
+                <ToggleButton x:Name="Log_Switch" Width="185" Height="42" Background="#E5EEF9" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Icon/Error.png" Width="25" Margin="5,0"/>
+                            <TextBlock Text="0" Margin="0,0,5,0" FontSize="25"/>
+                            <Image Source="Icon/Warning.png" Width="25" Margin="5,0"/>
+                            <TextBlock Text="0" Margin="0,0,5,0" FontSize="25"/>
+                            <Image Source="Icon/Information.png" Width="25" Margin="5,0"/>
+                            <TextBlock Text="0" Margin="0,0,5,0" FontSize="25"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ToggleButton>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
                 <GridSplitter Height="27" IsEnabled="False" BorderBrush="#646464" BorderThickness="1" Width="1"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
-                <ToggleButton x:Name="Admin_Switch" Content="Admin" Width="305" Height="42"/>
+                <ToggleButton x:Name="Admin_Switch" Width="120" Height="42" Background="#E5EEF9" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="Icon/Sign in.png"/>
+                </ToggleButton>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
                 <GridSplitter Height="27" IsEnabled="False" BorderBrush="#646464" BorderThickness="1" Width="1"/>

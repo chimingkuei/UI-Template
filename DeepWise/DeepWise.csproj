@@ -228,6 +228,9 @@
     <Resource Include="Icon\Information.png" />
     <Resource Include="Icon\Warning.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\Sign in.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
