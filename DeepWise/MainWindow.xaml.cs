@@ -113,6 +113,7 @@ namespace DeepWise
                     {
                         if (MessageBox.Show("確認要關閉程式嗎？", "提示", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                             this.Close();
+                        Window_Closing.IsChecked = false;
                         break;
                     }
             }

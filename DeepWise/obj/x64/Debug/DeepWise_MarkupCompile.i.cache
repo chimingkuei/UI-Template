@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Chimingkuei\repos\UI-Template\DeepWise\App.xaml
-10-1854900908
+141771090229
 4648726135
-91748032000
+13-366068553
 31-566526451
-ControlItem\IndicatorLight.xaml;MainWindow.xaml;UI\ButtonStyles.xaml;UI\CheckBoxStyles.xaml;UI\ComboBoxStyles.xaml;UI\GroupBoxStyles.xaml;UI\RadioButtonStyles.xaml;UI\SliderStyles.xaml;UI\TabControlStyles.xaml;UI\TextBoxStyles.xaml;
+ControlItem\IndicatorLight.xaml;Icon\Account.xaml;Icon\StatusError.xaml;Icon\StatusInformation.xaml;Icon\StatusWarning.xaml;MainWindow.xaml;UI\ButtonStyles.xaml;UI\CheckBoxStyles.xaml;UI\ComboBoxStyles.xaml;UI\GroupBoxStyles.xaml;UI\RadioButtonStyles.xaml;UI\SliderStyles.xaml;UI\TabControlStyles.xaml;UI\TextBoxStyles.xaml;
 
-False
+True
 

@@ -134,3 +134,11 @@ D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CoreComp
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CopyComplete
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.exe
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.pdb
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusError.g.cs
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusInformation.g.cs
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusWarning.g.cs
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusError.baml
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusInformation.baml
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusWarning.baml
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\Account.g.cs
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\Account.baml
