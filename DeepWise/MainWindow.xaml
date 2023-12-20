@@ -107,16 +107,7 @@
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ToggleButton x:Name="Log_Switch" Width="160" Height="42" Background="#E5EEF9" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel Orientation="Horizontal">
-                        <StackPanel Orientation="Horizontal">
-                            <di:StatusError Width="30" Margin="2,0"/>
-                            <TextBlock Text="0" Margin="0,0,2,0" FontSize="22"/>
-                            <di:StatusWarning Width="30" Margin="2,0"/>
-                            <TextBlock Text="0" Margin="0,0,2,0" FontSize="22"/>
-                            <di:StatusInformation Width="30" Margin="2,0"/>
-                            <TextBlock Text="0" Margin="0,0,2,0" FontSize="22"/>
-                        </StackPanel>
-                    </StackPanel>
+                    <dc:LogIcon x:Name="LogMessage_Num" Width="146" Height="27"/>
                 </ToggleButton>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
