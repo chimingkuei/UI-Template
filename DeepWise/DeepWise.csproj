@@ -135,6 +135,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Icon\CompanyName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Icon\StatusError.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,6 +166,9 @@
     </Compile>
     <Compile Include="Icon\Account.xaml.cs">
       <DependentUpon>Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Icon\CompanyName.xaml.cs">
+      <DependentUpon>CompanyName.xaml</DependentUpon>
     </Compile>
     <Compile Include="Icon\StatusError.xaml.cs">
       <DependentUpon>StatusError.xaml</DependentUpon>

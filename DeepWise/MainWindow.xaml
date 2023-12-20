@@ -34,14 +34,7 @@
     </Window.Triggers>
     <Grid>
         <Grid Margin="0,0,1572,0" Background="White">
-            <WrapPanel Orientation="Horizontal" Margin="28,28,28,990">
-                <Image Source="Icon/DeepWise.png" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="78"/>
-                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" FontSize="25" FontFamily="Arial Black" Foreground="#FF153EA4" Margin="5,0,0,0"> 
-                <Run Text=" 悟智股份有限公司" Foreground="#353535"/>
-                <LineBreak/>
-                <Run Text="  DeepWise Co,Ltd." Foreground="#646464" FontSize="15"/>
-                </TextBlock>
-            </WrapPanel>
+            <di:CompanyName Height="62" Width="292" Margin="28,28,28,990"/>
             <GroupBox Style="{StaticResource BaseGroupBox}" Header="Menu" Margin="0,117,0,417" FontSize="36" FontWeight="Bold">
                 <WrapPanel Margin="12,0,12,0">
                     <RadioButton x:Name="Home_Page" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="主 　 　 頁"  Width="300" Height="80" Tag="../Icon/icons8-home-50.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
@@ -110,7 +103,7 @@
         </TabControl>
         <StatusBar Name="statusBar" Margin="348,1045,0,1" FontSize="20" Background="#E5EEF9" BorderBrush="#646464" BorderThickness="1">
             <StatusBarItem>
-                <TextBlock Text="Status bar text.........." Width="980"/>
+                <TextBlock x:Name="Status" Text="Status bar text.........." Width="980"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ToggleButton x:Name="Log_Switch" Width="160" Height="42" Background="#E5EEF9" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -157,13 +150,13 @@
                     <Setter Property="FontSize" Value="16" />
                 </Style>
             </TabControl.Resources>
-            <TabItem Header="一般" Style="{StaticResource BaseTabcontrol}">
+            <TabItem Header="一般" Style="{StaticResource StatusInformationTabcontrol}">
                 <RichTextBox x:Name="richTextBoxGeneral" Background="#FF43B5BF"/>
             </TabItem>
-            <TabItem Header="警告" Style="{StaticResource BaseTabcontrol}">
+            <TabItem Header="警告" Style="{StaticResource StatusWarningTabcontrol}">
                 <RichTextBox x:Name="richTextBoxWarning" Background="#FF43AABF"/>
             </TabItem>
-            <TabItem Header="錯誤" Style="{StaticResource BaseTabcontrol}">
+            <TabItem Header="錯誤" Style="{StaticResource StatusErrorTabcontrol}">
                 <RichTextBox x:Name="richTextBoxError" Background="#FF43A0BF"/>
             </TabItem>
         </TabControl>

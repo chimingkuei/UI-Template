@@ -142,3 +142,5 @@ D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusInformation.b
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusWarning.baml
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\Account.g.cs
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\Account.baml
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\CompanyName.g.cs
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\CompanyName.baml
