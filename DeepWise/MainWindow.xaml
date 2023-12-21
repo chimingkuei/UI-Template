@@ -45,7 +45,7 @@
                 </WrapPanel>
             </GroupBox>
             <GroupBox Style="{StaticResource BaseGroupBox}" Header="Devices" Margin="0,633,0,38" FontSize="36" FontWeight="Bold">
-                <WrapPanel Orientation="Vertical" Height="324">
+                <WrapPanel Orientation="Vertical" Height="304" Margin="0,-20,0,0">
                     <dc:IndicatorLight LightColor="#00FF00" DeviceName="MotionController" Width="303" Height="56" Margin="4.5,4,0,0"/>
                     <dc:IndicatorLight LightColor="#00FF00" DeviceName="CameraTop" Width="303" Height="56" Margin="4.5,4,0,0"/>
                     <dc:IndicatorLight LightColor="#00FF00" DeviceName="CameraLeft" Width="303" Height="56" Margin="4.5,4,0,0"/>

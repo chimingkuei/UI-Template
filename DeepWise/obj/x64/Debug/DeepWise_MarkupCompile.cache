@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Temp\UI-Template\DeepWise\obj\x64\Debug\
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\
 DeepWise
 none
 false
 DEBUG;TRACE
-E:\Temp\UI-Template\DeepWise\App.xaml
+D:\Chimingkuei\repos\UI-Template\DeepWise\App.xaml
 161853985153
-4519777595
+4648726135
 14-420632
-311852991471
+31-566526451
 ControlItem\IndicatorLight.xaml;ControlItem\LogIcon.xaml;Icon\Account.xaml;Icon\CompanyName.xaml;Icon\StatusError.xaml;Icon\StatusInformation.xaml;Icon\StatusWarning.xaml;MainWindow.xaml;UI\ButtonStyles.xaml;UI\CheckBoxStyles.xaml;UI\ComboBoxStyles.xaml;UI\GroupBoxStyles.xaml;UI\RadioButtonStyles.xaml;UI\SliderStyles.xaml;UI\TabControlStyles.xaml;UI\TextBoxStyles.xaml;
 
 False
