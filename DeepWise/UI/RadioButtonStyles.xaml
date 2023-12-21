@@ -32,7 +32,7 @@
                         <!-- 左边放图，使用 Image 控件的 Source 属性来设置图像 -->
                         <Image x:Name="RadioButtonImage" Source="{Binding Path=Tag, RelativeSource={RelativeSource TemplatedParent}}" Width="40" Height="40" VerticalAlignment="Center" Margin="35,0,0,0"/>
                         <!-- 右边放字 -->
-                        <TextBlock Grid.Column="1" Text="{TemplateBinding Content}" VerticalAlignment="Center" Margin="40,0,0,0" FontSize="32" FontWeight="Normal"/>
+                        <TextBlock Grid.Column="1" Text="{TemplateBinding Content}" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="32" FontWeight="Normal"/>
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsChecked" Value="True">

@@ -5,9 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DeepWise.ControlItem"
              mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="50"  MinWidth="16" MinHeight="16">
+             d:DesignHeight="56" d:DesignWidth="303"  MinWidth="16" MinHeight="16">
     <Grid>
-        <Grid Margin="2">
+        <Grid Margin="5,8,259,8">
             <Ellipse x:Name="Light" Fill="#646464">
                 <Ellipse.Effect>
                     <BlurEffect Radius="1" x:Name="Blur"/>
@@ -27,9 +27,8 @@ CenterY="0.5" ScaleX="1.5" ScaleY="1.5"/>
                         <GradientStop Offset="0.4" Color="#FFFFFFFF"/>
                     </RadialGradientBrush>
                 </Ellipse.Fill>
-
             </Ellipse>
-            <Path x:Name="ReflectionLayer" VerticalAlignment="Top" Stretch="Fill">
+            <Path x:Name="ReflectionLayer" VerticalAlignment="Center" Stretch="Fill">
                 <Path.RenderTransform>
                     <ScaleTransform ScaleY="0.5" />
                 </Path.RenderTransform>
@@ -71,6 +70,7 @@ CenterY="0.5" ScaleX="1.5" ScaleY="1.5"/>
                 </Path.Fill>
             </Path>
         </Grid>
-        <Ellipse Stroke="#444444" StrokeThickness="2"></Ellipse>
+        <Ellipse Stroke="#444444" StrokeThickness="2" Margin="3,6,257,6"/>
+        <TextBlock  Text="{Binding DeviceName, RelativeSource={RelativeSource AncestorType=UserControl}}" VerticalAlignment="Center" FontSize="30" Margin="50,0,5,0" FontWeight="Normal"/>
     </Grid>
 </UserControl>

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Media3D;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
@@ -48,6 +49,17 @@ namespace DeepWise.ControlItem
             //s.Animation2.To = color.> 0.5f ? 10 : 1;
             //s.Blur.BeginAnimation(BlurEffect.RadiusProperty, s.Animation2);
         }
+
+        #region DeviceName TextBox
+        public static readonly DependencyProperty DeviceNameProperty =
+        DependencyProperty.Register(nameof(DeviceName), typeof(string), typeof(IndicatorLight), new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+
+        public string DeviceName
+        {
+            get { return (string)GetValue(DeviceNameProperty); }
+            set { SetValue(DeviceNameProperty, value); }
+        }
+        #endregion
 
     }
 }

@@ -33,49 +33,24 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid>
-        <Grid Margin="0,0,1572,0" Background="White">
-            <di:CompanyName Height="62" Width="292" Margin="28,28,28,990"/>
-            <GroupBox Style="{StaticResource BaseGroupBox}" Header="Menu" Margin="0,117,0,417" FontSize="36" FontWeight="Bold">
-                <WrapPanel Margin="12,0,12,0">
-                    <RadioButton x:Name="Home_Page" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="主 　 　 頁"  Width="300" Height="80" Tag="../Icon/icons8-home-50.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
-                    <RadioButton x:Name="Parameter_Setting" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="參 數 設 定"  Width="300" Height="80" Tag="../Icon/icons8-edit-property-50.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
-                    <RadioButton x:Name="Device_Setting" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="設 備 設 定"  Width="300" Height="80" Tag="../Icon/icons8-setting-48.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
-                    <RadioButton x:Name="Product_History" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="產 品 履 歷"  Width="300" Height="80" Tag="../Icon/icons8-order-history-50.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
-                    <RadioButton x:Name="Window_Closing" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="關 閉 程 式"  Width="300" Height="80" Tag="../Icon/icons8-power-off-button-50.png" Margin="0,15,0,0" Checked="Menu_Rbn_Checked"/>
+        <Grid Margin="0,0,1586,0" Background="White">
+            <di:CompanyName Height="62" Width="292" Margin="21,28,21,990"/>
+            <GroupBox Style="{StaticResource BaseGroupBox}" Header="Menu" Margin="0,117,0,447" FontSize="36" FontWeight="Bold">
+                <WrapPanel Margin="12,-20,12,10">
+                    <RadioButton x:Name="Home_Page" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="主 　 　 頁"  Width="286" Height="80" Tag="../Icon/icons8-home-50.png" Margin="0,10,0,0" Checked="Menu_Rbn_Checked"/>
+                    <RadioButton x:Name="Parameter_Setting" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="參 數 設 定"  Width="286" Height="80" Tag="../Icon/icons8-edit-property-50.png" Margin="0,10,0,0" Checked="Menu_Rbn_Checked"/>
+                    <RadioButton x:Name="Device_Setting" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="設 備 設 定"  Width="286" Height="80" Tag="../Icon/icons8-setting-48.png" Margin="0,10,0,0" Checked="Menu_Rbn_Checked"/>
+                    <RadioButton x:Name="Product_History" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="產 品 履 歷"  Width="286" Height="80" Tag="../Icon/icons8-order-history-50.png" Margin="0,10,0,0" Checked="Menu_Rbn_Checked"/>
+                    <RadioButton x:Name="Window_Closing" GroupName="Menu" Style="{StaticResource ButtonStyle}" Content="關 閉 程 式"  Width="286" Height="80" Tag="../Icon/icons8-power-off-button-50.png" Margin="0,10,0,0" Checked="Menu_Rbn_Checked"/>
                 </WrapPanel>
             </GroupBox>
-            <GroupBox Style="{StaticResource BaseGroupBox}" Header="Devices" Margin="0,672,0,38" FontSize="36" FontWeight="Bold">
-                <WrapPanel Orientation="Vertical" Height="304">
-                    <Border Margin="9,0,0,0">
-                        <StackPanel Orientation="Horizontal" Height="56">
-                            <dc:IndicatorLight LightColor="#00FF00" Width="40" Height="40" Margin="10,0,0,0"/>
-                            <TextBlock Text="MotionControlle" VerticalAlignment="Center" FontSize="30" Margin="10,0,0,0" FontWeight="Normal"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Margin="9,5,0,0">
-                        <StackPanel Orientation="Horizontal" Height="56">
-                            <dc:IndicatorLight LightColor="#00FF00" Width="40" Height="40" Margin="10,0,0,0"/>
-                            <TextBlock Text="CameraTop" VerticalAlignment="Center" FontSize="30" Margin="10,0,0,0" FontWeight="Normal"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Margin="9,5,0,0">
-                        <StackPanel Orientation="Horizontal" Height="56">
-                            <dc:IndicatorLight LightColor="#00FF00" Width="40" Height="40" Margin="10,0,0,0"/>
-                            <TextBlock Text="CameraLeft" VerticalAlignment="Center" FontSize="30" Margin="10,0,0,0" FontWeight="Normal"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Margin="9,5,0,0">
-                        <StackPanel Orientation="Horizontal" Height="56">
-                            <dc:IndicatorLight LightColor="#00FF00" Width="40" Height="40" Margin="10,0,0,0"/>
-                            <TextBlock Text="Dimmer" VerticalAlignment="Center" FontSize="30" Margin="10,0,0,0" FontWeight="Normal"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Margin="9,5,0,0">
-                        <StackPanel Orientation="Horizontal" Height="56">
-                            <dc:IndicatorLight LightColor="#00FF00" Width="40" Height="40" Margin="10,0,0,0"/>
-                            <TextBlock Text="Robot" VerticalAlignment="Center" FontSize="30" Margin="10,0,0,0" FontWeight="Normal"/>
-                        </StackPanel>
-                    </Border>
+            <GroupBox Style="{StaticResource BaseGroupBox}" Header="Devices" Margin="0,633,0,38" FontSize="36" FontWeight="Bold">
+                <WrapPanel Orientation="Vertical" Height="324">
+                    <dc:IndicatorLight LightColor="#00FF00" DeviceName="MotionController" Width="303" Height="56" Margin="4.5,4,0,0"/>
+                    <dc:IndicatorLight LightColor="#00FF00" DeviceName="CameraTop" Width="303" Height="56" Margin="4.5,4,0,0"/>
+                    <dc:IndicatorLight LightColor="#00FF00" DeviceName="CameraLeft" Width="303" Height="56" Margin="4.5,4,0,0"/>
+                    <dc:IndicatorLight LightColor="#00FF00" DeviceName="Dimmer" Width="303" Height="56" Margin="4.5,4,0,0"/>
+                    <dc:IndicatorLight LightColor="#00FF00" DeviceName="Robot" Width="303" Height="56" Margin="4.5,4,0,0"/>
                 </WrapPanel>
             </GroupBox>
         </Grid>
@@ -101,7 +76,7 @@
                 </Grid>
             </TabItem>
         </TabControl>
-        <StatusBar Name="statusBar" Margin="348,1045,0,1" FontSize="20" Background="#E5EEF9" BorderBrush="#646464" BorderThickness="1">
+        <StatusBar Name="statusBar" Margin="334,1045,0,1" FontSize="20" Background="#E5EEF9" BorderBrush="#646464" BorderThickness="1">
             <StatusBarItem>
                 <TextBlock x:Name="Status" Text="Status bar text.........." Width="980"/>
             </StatusBarItem>
@@ -128,7 +103,7 @@
                 <TextBlock x:Name="System_Time" Width="262" Height="42" FontSize="22"/>
             </StatusBarItem>
         </StatusBar>
-        <TabControl x:Name="Log" HorizontalAlignment="Left" Height="151" Margin="355,891,0,0" VerticalAlignment="Top" Width="1556" Background="#FFE6F0FF">
+        <TabControl x:Name="Log" HorizontalAlignment="Left" Height="151" Margin="341,891,0,0" VerticalAlignment="Top" Width="1570" Background="#FFE6F0FF">
             <TabControl.Resources>
                 <Style TargetType="RichTextBox">
                     <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
