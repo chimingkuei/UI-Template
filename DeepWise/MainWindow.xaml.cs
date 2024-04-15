@@ -99,8 +99,9 @@ namespace DeepWise
                     }
                 case nameof(Device_Setting):
                     {
-                        Main.SelectedIndex = (int)Page.DeviceSettings;
-                        Logger.WriteLog("切換設備設定!", LogLevel.General, richTextBoxGeneral);
+                        //Main.SelectedIndex = (int)Page.DeviceSettings;
+                        //Logger.WriteLog("切換設備設定!", LogLevel.General, richTextBoxGeneral);
+                        WindowState = WindowState.Minimized;
                         break;
                     }
                 case nameof(Product_History):

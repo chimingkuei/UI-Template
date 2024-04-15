@@ -131,7 +131,6 @@ D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.g.resources
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.Properties.Resources.resources
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.GenerateResource.cache
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CoreCompileInputs.cache
-D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CopyComplete
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.exe
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.pdb
 D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\Icon\StatusError.g.cs
@@ -226,3 +225,4 @@ E:\Temp\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CoreCompileInputs.cac
 E:\Temp\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.CopyComplete
 E:\Temp\UI-Template\DeepWise\obj\x64\Debug\DeepWise.exe
 E:\Temp\UI-Template\DeepWise\obj\x64\Debug\DeepWise.pdb
+D:\Chimingkuei\repos\UI-Template\DeepWise\obj\x64\Debug\DeepWise.csproj.Up2Date
